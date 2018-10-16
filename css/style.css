@@ -1,0 +1,19 @@
+/* any override stye value will be placed here*/ 
+
+div.loading {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+
+div.loading-wrapper{
+    position: fixed;
+    background-color: #379BB2;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
