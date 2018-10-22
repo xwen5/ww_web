@@ -72,3 +72,11 @@ div.loading-wrapper{
 .intro{
     padding-top: 2vh;
 }
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: white;
+    fill: white;
+  }
