@@ -63,6 +63,10 @@ div.loading-wrapper{
     height: 100vh;
 } 
 
+#aboutMe{
+    background-color: rgb(255,159,25);
+}
+
 #profile{
     padding-top: 8vh;
     padding-bottom: 12vh;
