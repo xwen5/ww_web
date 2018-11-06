@@ -119,7 +119,7 @@ div.loading-wrapper{
 }
 
 /* When you mouse over the navigation links, change their color */
-#overlay a:focus {
+#overlay a:active {
     color: #2C9BE0;
 }
 #overlay a:hover{
