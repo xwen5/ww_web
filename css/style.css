@@ -3,43 +3,41 @@ html{
     font-size: 0.65rem;
 }
 
-@media (min-width: 576px) { 
+ /* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
     html{
-        font-size: 0.8rem;
+    font-size: 0.7rem;
     }
-    
-    
-    
-}
-
-
-@media (min-width: 768px) { 
-    html{
-        font-size: 0.8rem;
-    }
-    
-
-
  }
 
-
-@media (min-width: 992px) { 
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
     html{
-        font-size: 1.2rem;
+    font-size: 0.8rem;
     }
-    
-
-
  }
 
-
-@media (min-width: 1200px) { 
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
     html{
-        font-size: 1.4rem;
+    font-size:0.9rem;
     }
-    
+ }
 
- } 
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    html{
+    font-size: 1.2 rem;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    html{
+    font-size: 1.4rem;
+    }
+ }
+
 div.loading {
     margin: 0 auto;
     position: absolute;
