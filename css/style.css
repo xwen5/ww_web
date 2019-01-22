@@ -93,7 +93,10 @@ div.loading-wrapper{
     stroke: white;
     fill: white;
   }
-
+  .svg-icon {
+    width: 2em;
+    height: 2em;
+  }/* icon for close project tab*/
   /* css for sidebar */
   #overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
