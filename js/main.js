@@ -2,7 +2,7 @@
 $(document).ready(function(){
         setTimeout(function(){
             $(".loading-wrapper").fadeOut(800);
-        },1350);
+        },1200);
         $('.adigami').carousel({
             interval: 3000
           })
