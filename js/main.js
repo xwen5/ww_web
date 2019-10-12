@@ -7,7 +7,7 @@ $(document).ready(function(){
             interval: 3000
           })
           $('.gugi').carousel({
-            interval: 4500
+            interval: 4600
           })
     });
     function openNav() {
