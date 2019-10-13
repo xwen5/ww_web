@@ -44,7 +44,7 @@ div.loading {
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-    z-index: 500;
+    z-index: 600;
 }
 
 div.loading-wrapper{
@@ -61,9 +61,7 @@ div.loading-wrapper{
     height: 100vh;
 } 
 
-#contactme div{
-    height: 25vh;
-}
+
 
 #aboutme{
    
@@ -71,19 +69,25 @@ div.loading-wrapper{
 }
 
 #profile{
-    padding-top: 8vh;
-    padding-bottom: 12vh;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    
 }
 
 #adigamiintro{
     
     /*background: linear-gradient(#12c2e9, #c471ed, #f64f59);*/
     background: linear-gradient(#10A8C9, #AD64D1, #E34952);
-    
-
 }
-.intro{
-    padding-top: 2vh;
+#video{
+    padding-top: 2.5%;
+    padding-bottom:2.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#contactme {
+    padding-top: 2.5%;
+    padding-bottom:2.5%;
 }
 .icon {
     display: inline-block;
